@@ -10,5 +10,6 @@ d = 5;
 }
 console.table([a,b,c,d])
 
+"use strict"; //treat all js code as newer version
 
 // console.log("abcd")
