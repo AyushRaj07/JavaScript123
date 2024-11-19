@@ -45,5 +45,10 @@ console.log(1 + "2"); //12
 console.log("1" + 2 + 2); //122
 console.log(1 + 2 + "2"); //32
 
+const id = Symbol('123')
+const anId = Symbol('123')
+console.log(id === anId);
+
+
 
 
