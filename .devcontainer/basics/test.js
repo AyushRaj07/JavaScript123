@@ -49,6 +49,37 @@ const id = Symbol('123')
 const anId = Symbol('123')
 console.log(id === anId);
 
+//Stack(primitive) and heap(Non primitive i.e. objects) memory
+
+let name = "abcd"
+let anName = name
+anName = "efgh"
+console.log(anName); // name will not change, only anName changes.
+
+let name1 = {
+    a: "abcd",
+    b: "efgh"
+}
+
+let name2 = name1
+
+name2.a = "vhhd"
+
+console.log(name1);
+console.log(name2);
+
+//value will change in both name1 and name2 because they are stored in heap and referenced is assigned to each variable
+
+//String
+
+const namee = "abcd"
+const repoCount = 50
+
+console.log(`hello ${namee} and repo is ${repoCount}` );
+
+
+
+
 
 
 
