@@ -100,6 +100,17 @@ let myCreateDate2 = new Date("2023-01-24") // us format
 
 let myCreateDate3 = new Date("01-14-2023") // indian format
 
+let myTime = Date.now()
+
+console.log(myTime);
+console.log(Math.floor(Date.now()/1000));
+
+`${myCreateDate.getDay()} and the time`
+
+myCreateDate.toLocaleString('default', {
+    weekday: "long",
+    timeZone: ""
+})
 
 
 
