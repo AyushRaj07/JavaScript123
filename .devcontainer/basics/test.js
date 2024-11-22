@@ -92,6 +92,19 @@ let myDate = new Date()
 console.log(myDate.toString());
 console.log(typeof myDate); //Object
 
+let myCreateDate = new Date(2023, 0, 23)
+
+let myCreateDate1 = new Date(2023, 0, 23, 5, 3)
+
+let myCreateDate2 = new Date("2023-01-24") // us format
+
+let myCreateDate3 = new Date("01-14-2023") // indian format
+
+
+
+
+
+
 
 
 
