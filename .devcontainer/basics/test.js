@@ -77,6 +77,20 @@ const repoCount = 50
 
 console.log(`hello ${namee} and repo is ${repoCount}` );
 
+//maths and numbers
+
+//some numbers functions are toFixed, toPrecision, toLocaleString('en-IN')
+
+const min = 10
+const max = 20
+
+console.log(Math.floor(Math.random() * (max - min + 1)) + min); //to find random values between 10 and 20
+
+//dates
+
+let myDate = new Date()
+console.log(myDate.toString());
+console.log(typeof myDate); //Object
 
 
 
