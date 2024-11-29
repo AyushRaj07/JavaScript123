@@ -106,6 +106,32 @@ console.log(Object.entries(user2)); //we will get the array of both the keys and
 
 console.log(user2.hasOwnProperty('name'));//it will return true // we use this to find whether a key is present in the object or not
 
+//object destructuring - how we retrieve the values from the object
+
+// user2.id // we retrieve value by this way
+
+const {id: idd} = user2
+
+console.log(idd); //we can also change the name of the keys
+
+//API - how we get the values 
+//earlier we use to get the value in xml format and now we get in JSON format
+
+// {
+//     "name":"ayush",
+//     "cname":"JS",
+//     "price":"1000"
+// }
+
+//sometimes we get api in the format of arrays 
+
+[
+    {},
+    {},
+    {}
+]
+
+
 
 
 
