@@ -27,3 +27,34 @@ function one(){
 }
 
 one() //it is executed first and then two is executed
+
+if(true){
+    const usernamee = "ayush"
+    if(usernamee === "ayush"){
+        const website = "youtube"
+        console.log(usernamee + website);
+    }
+    console.log(website); //will throw error as it is out of scope
+}
+console.log(usernamee); //will throw error as it is out of scope
+
+//concept -- techniqes to make a function
+
+addOne(5) //if we call the below function before declaring the function then it will not give any error
+function addOne(num){
+    return num + 1
+}
+
+addOne(5)
+
+//Function declared in other way
+
+addTwo(5) //if we call the function before declaring the function then it will throw error as the function has been hold into a variable
+const addTwo = function(num){
+    return num + 2
+}
+
+addTwo(5)
+
+//This concept is called hoisting
+
