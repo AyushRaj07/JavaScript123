@@ -1,7 +1,7 @@
-const a = "ayush"
-let b = 1234
-var c = "a"
-d = 5;
+const a = "ayush" //const value can't be changed
+let b = 1234 //can be changed
+var c = "a" //can be changed //we don't use var because of scope problem
+d = 5; //can be changed
 
 
 {
