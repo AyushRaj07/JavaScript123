@@ -14,7 +14,22 @@ console.table([a,b,c,d])
 
 // console.log("abcd")
 
-let ab = "abcd"
+let ab = "abcd" //string
+
+//primitive datatype
+
+//number
+//bigint
+//string
+//boolean
+//null -> stnadalone value
+//undefined
+//symbol -> for uniqueness
+
+console.log(typeof undefined); //undefined
+console.log(typeof null); //object
+
+
 
 //number conversion
 let valNum = Number(ab)
